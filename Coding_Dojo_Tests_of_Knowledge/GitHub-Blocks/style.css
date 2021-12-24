@@ -1,0 +1,44 @@
+.container {
+    padding: 10px;
+    margin: 0px auto;
+    width: 800px;
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+img {
+    height: 200px;
+}
+
+.top-row, .mid-row, .bot-row {
+    height: 240px;
+    display: flex;
+    align-items: center;
+}
+
+.top-row {
+    background-color: purple;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.mid-row {
+    background-color: orange;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+.bot-row {
+    background-color: black;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+p {
+    text-align: center;
+}
